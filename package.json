@@ -1,0 +1,23 @@
+{
+  "name": "base-project",
+  "version": "1.0.0",
+  "description": "Project created to be use how base to create other projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulodaluz/Projeto-Base.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodeJS"
+  ],
+  "author": "Paulo da Luz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulodaluz/Projeto-Base/issues"
+  },
+  "homepage": "https://github.com/paulodaluz/Projeto-Base#readme"
+}
