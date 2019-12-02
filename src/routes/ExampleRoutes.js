@@ -6,8 +6,8 @@ const router = express();
 
 router.route('/exampleRoute')
     .get(exampleController.exampleControllerGet)
-    .post(exampleController.exampleControllerPost)
+    .post(exampleController.exampleControllerPost);
 
-router.get('/exampleRouterId/:id', exampleController.exampleControllerComId)
+router.get('/exampleRouterId/:id', exampleController.exampleControllerComId);
 
 module.exports = router;

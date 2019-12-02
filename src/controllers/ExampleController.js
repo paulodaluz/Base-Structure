@@ -1,15 +1,17 @@
 var express = require('express');
 
+var service = require('../service/ExampleService')
+
 module.exports = {
     exampleControllerGet(req, res){
-        res.send('Resposta GET OK!')
+        service.exampleServiceGet(req, res);
     },
 
     exampleControllerPost(req, res){
-        res.send('Resposta POST OK!')
+        service.exampleServicePost(req, res);
     },
 
     exampleControllerComId(req, res){
-        res.send(`Seu id é ${req.params.id}`)
+        service.exampleServiceComId(req, res);
     }
 }
