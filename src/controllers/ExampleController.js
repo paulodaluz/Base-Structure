@@ -1,4 +1,3 @@
-var express = require('express');
 const { validationResult } = require('express-validator');
 
 var service = require('../service/ExampleService')
