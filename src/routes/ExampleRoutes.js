@@ -1,9 +1,13 @@
 var express = require('express');
 
+var exampleController = require('../controllers/ExampleController')
+
 const router = express();
 
 router.route('/exampleRoute')
-    .get(function (req, res) { res.send('Example Get') })
-    .post(function (req, res) { res.send('Example Post') })
+    .get(exampleController.exampleControllerGet)
+    .post(exampleController.exampleControllerPost)
+
+router.get('/exampleRouterId/:id', exampleController.exampleControllerComId)
 
 module.exports = router;
