@@ -1,6 +1,6 @@
 module.exports = {
     exampleServiceGet(req, res) {
-        res.send('Resposta GET OK!');
+        res.json({ response: 'Resposta GET OK!' });
     },
 
     exampleServicePost(req, res) {

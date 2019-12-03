@@ -1,5 +1,4 @@
 var express = require('express');
-const { check, validationResult } = require('express-validator');
 
 var exampleController = require('../controllers/ExampleController');
 

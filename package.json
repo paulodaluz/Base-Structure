@@ -1,11 +1,12 @@
 {
   "name": "base-project",
   "version": "1.0.0",
-  "description": "Project created to be use how base to create other projects.",
+  "description": "Project created to be use how base to create other projects more quickly.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js "
+    "test": "mocha ./src/tests/*.test.js --exit",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,11 @@
     "express-validator": "^6.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.1",
-    "concurrently": "^5.0.0"
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-things": "^0.2.0",
+    "concurrently": "^5.0.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1"
   }
 }
