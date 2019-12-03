@@ -1,23 +1,23 @@
 const { validationResult } = require('express-validator');
 
-var service = require('../service/ExampleService')
+const service = require('../service/ExampleService');
 
 module.exports = {
-    exampleControllerGet(req, res){
-        service.exampleServiceGet(req, res);
-    },
+  exampleControllerGet(req, res) {
+    return service.exampleServiceGet(req, res);
+  },
 
-    exampleControllerPost(req, res){
-        service.exampleServicePost(req, res);
-    },
+  exampleControllerPost(req, res) {
+    return service.exampleServicePost(req, res);
+  },
 
-    exampleControllerComId(req, res){
-        const errors = validationResult(req);
+  exampleControllerComId(req, res) {
+    const errors = validationResult(req);
 
-        if (!errors.isEmpty()) {
-            return res.status(422).json({ errors: errors.array() });
-        }
-
-        service.exampleServiceComId(req, res);
+    if (!errors.isEmpty()) {
+      return res.status(422).json({ errors: errors.array() });
     }
-}
+
+    return service.exampleServiceComId(req, res);
+  },
+};

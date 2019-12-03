@@ -1,8 +1,8 @@
-var express = require('express');
+const express = require('express');
 
-var exampleController = require('../controllers/ExampleController');
+const exampleController = require('../controllers/ExampleController');
 
-var validacaoBody = require('../validators/ExampleValidator');
+const validacaoBody = require('../validators/ExampleValidator');
 
 const router = express();
 
