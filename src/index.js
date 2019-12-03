@@ -13,6 +13,7 @@ app.use(exampleRoutes);
 app.use(bodyParser.json());
 
 app.listen(port, () => {
+    // eslint-disable-next-line
     console.log(`A aplicação está rodando na porta ${port}`)
 })
 
