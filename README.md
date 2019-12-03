@@ -8,23 +8,35 @@ O objetivo do projeto é criar uma estrutura base em NodeJS atendendo aos seguin
 - Deve possuir validação das requisições usando o `express-validator`.
 - Deve possuir rotas de exemplo.
 - Deve possuir testes de exemplo.
+- Deve possuir linters vinculados ao projeto.
 
 ## Tecnologias Utilizadas
 As técnologias utilizadas foram NodeJS e NPM.
 
 ## Bibliotecas utilizadas
-  * express versão 4.17.1 ou superior
-  * body-parser versão 1.18.2 ou superior
-  * express-validator versão 6.3.0 ou superior
-  * nodemon versão 2.0.1 ou superior
-  * concurrently versão 5.0.0 ou superior
+- Dependencias
+  * express versão 4.17.1 ou superior.
+  * body-parser versão 1.18.2 ou superior.
+  * express-validator versão 6.3.0 ou superior.
 
+- Dependencias de Desenvolvimento
+  * chai versão 4.2.0 ou superior.
+  * chai-http versão 4.3.0 ou superior.
+  * chai-things versão 0.2.0 ou superior.
+  * concurrently versão 5.0.0 ou superior.
+  * eslint versão 6.7.2 ou superior.
+  * eslint-config-airbnb-base versão 14.0.0 ou superior.
+  * eslint-config-prettier versão 6.7.0 ou superior.
+  * eslint-plugin-import versão 2.18.2 ou superior.
+  * mocha versão 6.2.2 ou superior.
+  * nodemon versão 2.0.1 ou superior.
+  * prettier versão 1.19.1 ou superior.
 
 ## Como instalar a aplicação
-Basta apenas baixar o projeto, abrir a pasta local dele no terminal e digitar o comando `npm install`, que ele ira instalar todas as bibliotecas.
+Basta apenas baixar o projeto, abrir a pasta local dele no terminal e digitar o comando `npm install` ou `yarn install`, que ele ira instalar todas as bibliotecas.
 
 ## Como rodar a aplicação localmente
-Para startar o projeto você pode digitar o comando `npm start` no diretório do projeto.
+Para startar o projeto localmente você pode digitar o comando `npm run dev` no diretório do projeto.
 
 Após isso ele irá abrir na porta `3002` no seu localhost, ou seja, basta apenas entrar em `localhost:3002`.
 
