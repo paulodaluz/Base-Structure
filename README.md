@@ -8,6 +8,7 @@ O objetivo do projeto é criar uma estrutura base em NodeJS atendendo aos seguin
 - Deve possuir validação das requisições usando o `express-validator`.
 - Deve possuir rotas de exemplo.
 - Deve possuir testes de exemplo.
+- Deve possuir logs.
 - Deve possuir linters vinculados ao projeto.
 
 ## Tecnologias Utilizadas
@@ -18,6 +19,7 @@ As técnologias utilizadas foram NodeJS e NPM.
   * express versão 4.17.1 ou superior.
   * body-parser versão 1.18.2 ou superior.
   * express-validator versão 6.3.0 ou superior.
+  * winston versão 3.2.1 ou superior.
 
 - Dependencias de Desenvolvimento
   * chai versão 4.2.0 ou superior.
