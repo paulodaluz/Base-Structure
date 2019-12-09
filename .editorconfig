@@ -1,0 +1,9 @@
+root = true; arquivo principal
+
+[*]; regras para todos os tipos de arquivo
+indent_style = space
+indent_size = 2
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = true ; espaços sobrando no final de linhas ele tira automaticamnete
+insert_final_newline = true; Cria uma nova linha no final de cada arquivo

@@ -11,5 +11,5 @@ module.exports = new winston.createLogger({
   2: info
   3: verbose
   4: debug
-  5: silly  
+  5: silly
 */
