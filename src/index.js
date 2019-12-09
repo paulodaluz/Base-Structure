@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const logger = require('./service/Logger');
 
 const utilsRoutes = require('./routes/UtilsRoutes');
 const exampleRoutes = require('./routes/ExampleRoutes');
@@ -17,8 +18,7 @@ app.use(utilsRoutes);
 app.use(exampleRoutes);
 
 app.listen(port, () => {
-    // eslint-disable-next-line
-    console.log(`A aplicação está rodando na porta ${port}`);
+    logger.info(`A aplicação está rodando na porta ${port}`);
 })
 
 module.exports = app;
