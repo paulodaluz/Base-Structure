@@ -4,7 +4,7 @@ Este projeto foi desenvolvido com o intuito de facilitar o desenvolvimento em No
 ## Objetivo do Projeto
 O objetivo do projeto é criar uma estrutura base em NodeJS atendendo aos seguintes requisitos:
 
-- Deve possuir uma estrutura routes->controller->service.
+- Deve possuir uma estrutura route->controller->service.
 - Deve possuir validação das requisições usando o `express-validator`.
 - Deve possuir rotas de exemplo.
 - Deve possuir testes de exemplo.
