@@ -1,6 +1,6 @@
 const { validationResult } = require('express-validator');
 
-const service = require('../service/ExampleService');
+const service = require('../services/ExampleService');
 
 module.exports = {
   exampleControllerGet(req, res) {
