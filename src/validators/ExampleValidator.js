@@ -1,8 +1,8 @@
 const { check } = require('express-validator');
 
 exports.validaExampleRouterId = [
-    check('id')
+  check('id')
     .not()
     .isEmpty()
     .isNumeric()
-]
+];

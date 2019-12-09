@@ -18,7 +18,7 @@ app.use(utilsRoutes);
 app.use(exampleRoutes);
 
 app.listen(port, () => {
-    logger.info(`A aplicação está rodando na porta ${port}`);
-})
+  logger.info(`A aplicação está rodando na porta ${port}`);
+});
 
 module.exports = app;

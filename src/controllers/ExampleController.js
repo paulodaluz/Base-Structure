@@ -19,5 +19,5 @@ module.exports = {
     }
 
     return service.exampleServiceComId(req, res);
-  },
+  }
 };
