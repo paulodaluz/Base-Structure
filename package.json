@@ -1,5 +1,5 @@
 {
-  "name": "base-project",
+  "name": "base-structure",
   "version": "1.0.0",
   "description": "Project created to be use how base to create other projects more quickly.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulodaluz/Projeto-Base.git"
+    "url": "git+https://github.com/paulodaluz/Base-Structure.git"
   },
   "keywords": [
     "javascript",
@@ -19,9 +19,9 @@
   "author": "Paulo da Luz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulodaluz/Projeto-Base/issues"
+    "url": "https://github.com/paulodaluz/Base-Structure/issues"
   },
-  "homepage": "https://github.com/paulodaluz/Projeto-Base#readme",
+  "homepage": "https://github.com/paulodaluz/Base-Structure#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.17.1",
