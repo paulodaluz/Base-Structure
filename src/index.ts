@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 const bodyParser = require('body-parser');
 const logger = require('./services/Logger');
 
