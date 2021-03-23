@@ -1,4 +1,4 @@
-const { check } = require('express-validator');
+import { check } from 'express-validator';
 
 exports.validaExampleRouterId = [
   check('id')

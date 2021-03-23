@@ -1,7 +1,7 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const logger = require('./services/Logger');
+import express from 'express';
+import bodyParser from 'body-parser';
 
+const logger = require('./services/Logger');
 const utilsRoutes = require('./routes/UtilsRoutes');
 const exampleRoutes = require('./routes/ExampleRoutes');
 

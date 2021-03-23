@@ -1,5 +1,4 @@
-const express = require('express');
-
+import express from 'express';
 const exampleController = require('../controllers/ExampleController');
 
 const validacaoBody = require('../validators/ExampleValidator');
